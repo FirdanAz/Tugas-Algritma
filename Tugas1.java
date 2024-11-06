@@ -15,10 +15,10 @@ public class Tugas1 {
             System.out.print("Masukkan bilangan bulat: ");
             int angka = scanner.nextInt();
 
-            if (angka % 3 == 0) {
-                System.out.println(angka + " : habis dibagi 3.");
+            if (angka % 5 == 0) {
+                System.out.println(angka + " : habis dibagi 5.");
             } else {
-                System.out.println(angka + " : tidak habis dibagi 3.");
+                System.out.println(angka + " : tidak habis dibagi 5.");
             }
 
             System.out.print("Apakah kamu ingin mencoba lagi? (ya/tidak): ");
